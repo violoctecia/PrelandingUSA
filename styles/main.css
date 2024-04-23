@@ -12,10 +12,9 @@
 }
 
 @font-face {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-BoldItalic.woff") format("woff");
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-BoldItalic.ttf);
   font-weight: 700;
-  font-style: italic;
 }
 body {
   min-height: 100vh;
