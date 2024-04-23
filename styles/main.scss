@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(../fonts/Gilroy-BoldItalic.ttf);
+  src: url("../fonts/Gilroy-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
@@ -130,7 +130,6 @@ body {
 }
 @media (max-width: 800px) {
   body {
-    font-family: Gilroy, sans-serif;
     background: url(../images/mobile-bg.jpg);
     background-repeat: no-repeat;
     background-position: top left;
