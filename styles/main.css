@@ -86,10 +86,6 @@ body {
 }
 
 @media (max-width: 1000px) {
-  body {
-    background-position: top left;
-    background-size: cover;
-  }
   .popup {
     border-radius: 35px;
     max-width: 307px;
@@ -124,6 +120,7 @@ body {
 }
 @media (max-width: 800px) {
   body {
+    font-family: Gilroy, sans-serif;
     background: url(../images/mobile-bg.jpg);
     background-repeat: no-repeat;
     background-position: top left;
