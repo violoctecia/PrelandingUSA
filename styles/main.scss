@@ -10,13 +10,6 @@
   border: 0;
   outline: 0;
 }
-// @font-face {
-//   font-family: "Gilroy";
-//   src: url("../fonts/Gilroy-BoldItalic.woff2") format("woff2"),
-//     url("../fonts/Gilroy-BoldItalic.woff") format("woff");
-//   font-weight: 700;
-//   font-style: italic;
-// }
 @font-face {
   font-family: Gilroy;
   src: url(../fonts/Gilroy-BoldItalic.ttf);
@@ -97,7 +90,7 @@ body {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .popup {
     border-radius: 35px;
     max-width: 307px;
@@ -142,7 +135,7 @@ body {
     background-size: cover;
   }
 }
-@media (min-height: 568px) and (max-width: 1000px) {
+@media (min-height: 568px) and (max-width: 700px) {
   .popup {
     border-radius: 35px;
     max-width: 307px;

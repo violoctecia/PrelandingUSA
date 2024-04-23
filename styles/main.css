@@ -84,7 +84,7 @@ body {
   background: rgba(40, 42, 157, 0.8980392157);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 700px) {
   .popup {
     border-radius: 35px;
     max-width: 307px;
@@ -125,7 +125,7 @@ body {
     background-size: cover;
   }
 }
-@media (min-height: 568px) and (max-width: 1000px) {
+@media (min-height: 568px) and (max-width: 700px) {
   .popup {
     border-radius: 35px;
     max-width: 307px;
